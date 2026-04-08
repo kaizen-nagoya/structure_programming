@@ -1,5 +1,5 @@
 # structure_programming
-http://researchmap.jp/kaizen
+http://researchmap.jp/kaizen/
 https://github.com/kaizen-nagoya/
 https://plantuml.com/ja/sitemap
 https://qiita.com/kaizen_nagoya/items/95368b63fa21d64271ec

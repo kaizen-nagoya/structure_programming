@@ -9,3 +9,6 @@ https://efrei.poupa.net/Programmation%20en%20C/Cours/The_C_Puzzle_Book.pdf
 https://qiita.com/kaizen_nagoya/items/84cab0888c193bba429b
 https://www.mycompiler.io/ja/online-c++-compiler
 
+https://www.open-std.org/jtc1/sc22/wg14/www/docs/n3685.pdf
+
+

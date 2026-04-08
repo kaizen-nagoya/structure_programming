@@ -23,5 +23,7 @@
 @enduml
 
 
-
 <img width="615" height="995" alt="image" src="https://github.com/user-attachments/assets/c2cf0efc-969f-44ef-a605-b6821a31fac8" />
+
+相手得点も得点決定の一部。
+集合関係がわかる図だとよい。

@@ -68,3 +68,5 @@ state ファイター {
 @enduml
 
 <img width="1112" height="964" alt="image" src="https://github.com/user-attachments/assets/0caf8be5-91fa-4715-9aa0-131073871eea" />
+
+ファイアとアイスの黒丸から外に出ているのは、PlantUMLの不具合か？

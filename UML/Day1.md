@@ -10,6 +10,8 @@ logic circuit -> CPU
 
 computer software
   OS
+  Game
+  Web
 
 communication device
 
@@ -21,6 +23,10 @@ Soroban(manual operation)
 phisics
   material
 　 * 5th state
+
+Chemical
+
+Biology
 
 Social Science
 

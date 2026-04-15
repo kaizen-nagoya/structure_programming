@@ -13,3 +13,8 @@ https://www.mycompiler.io/ja/online-c++-compiler
 https://www.open-std.org/jtc1/sc22/wg14/www/docs/n3685.pdf
 
 
+# Day1
+https://github.com/kaizen-nagoya/structure_programming/blob/main/Dai1.md
+
+# Day2
+https://github.com/kaizen-nagoya/structure_programming/edit/main/Day2.md

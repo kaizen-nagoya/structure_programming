@@ -4,9 +4,11 @@ https://qiita.com/kaizen_nagoya/items/84cab0888c193bba429b
 C言語(C++)が必要な人と必要ない人
 https://qiita.com/kaizen_nagoya/items/2afe9e846b55b24cb6f1
 
-pp1.
- Vモデル
+# pp1.
 
- 要求
+## Vモデル
+Water Fall
+## 要求
 
- UML図　状態遷移図・状態遷移表、　時系列図、刻時図
+## UML図　
+状態遷移図・状態遷移表、　時系列図、刻時図

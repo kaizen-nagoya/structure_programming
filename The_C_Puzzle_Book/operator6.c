@@ -17,6 +17,10 @@ int main() {
 
     x = y = z = -1;
     ++x && ++y || ++z; PRINT3(x,y,z);
+    x = y = z = -1;                        // add this line for clarification 20260415 
+    ++x && (++y || ++z); PRINT3(x,y,z);   // add this line for clarification 20260415
+     x = y = z = -1;                      // add this line for clarification 20260415
+    (++x && ++y) || ++z; PRINT3(x,y,z);   // add this line for clarification 20260415
 
     x = y = z = -1;
     ++x || ++y && ++z; PRINT3(x,y,z);

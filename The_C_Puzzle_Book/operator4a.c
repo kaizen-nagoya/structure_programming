@@ -1,3 +1,6 @@
+// https://www.mycompiler.io/ja/online-c-compiler
+// https://efrei.poupa.net/Programmation%20en%20C/Cours/The_C_Puzzle_Book.pdf
+
 #include <stdio.h>
 #define PRINT(int) printf("int = %d\n",int)
 

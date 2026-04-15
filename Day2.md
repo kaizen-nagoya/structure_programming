@@ -37,3 +37,14 @@ Cの関数として実現するもの
 時間のソースコードでは、CPU依存部分を割り込み処理などで書かないと実現できない。
 
 
+# ppp3
+４つのモデルは、それぞれ自動生成。
+専用ツール、生成AIを使うかは選択。
+
+motor control
+JMARG モータ設計
+MATLAB Model in the loop simulator
+Simulink Software int the loop simulatr
+FPGA: Verilog HDL Hardware in the loop simulator
+DIRS：Driver in the loop simulator
+テストコース、公道試験

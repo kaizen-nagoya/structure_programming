@@ -1,6 +1,6 @@
 #include <stdio.h>
 //#define PR(x) printf("x = %.8g\t",(double)x)
-#define PR(x) printf(#x "= %.8g\t",(double)x)
+#define PR(x) printf(#x "= %.8" #x "\t",(double)x)
 #define NL putchar('\n')
 #define PRINT4(x1,x2,x3,x4) PR(x1); PR(x2); PR(x3); PR(x4)
 

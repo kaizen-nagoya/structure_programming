@@ -1,20 +1,37 @@
 @startuml
+
 left to right direction
+
 actor "Designer" as de
+
 actor "Source Code" as sc
+
 rectangle UML {
+
   usecase "State Diagram" as UC1
+  
   usecase "Sequence Diagram" as UC2
+  
   usecase "Timing Diagram" as UC3
+
 }
+
 de --> UC1
+
 de --> UC2
+
 de --> UC3
+
 UC1 --> sc
+
 UC2 --> sc
+
 UC3 --> sc
+
 UC1 --> UC2
+
 UC1 --> UC3
+
 UC2 --> UC3
 
 @enduml

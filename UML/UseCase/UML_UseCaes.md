@@ -14,6 +14,56 @@ usecase "Sequence Diagram" as UC2
 
 usecase "Timing Diagram" as UC3
 
+usecase "Use Case Diagrm" as UC4
+
+}
+
+UC4 --   UC2
+
+de --> UC1
+
+de --> UC2
+
+de --> UC3
+
+de --> UC4
+
+UC1 --> sc : generate
+
+UC2 --> sc : generate
+
+UC3 --> sc : generate
+
+UC1 --> UC2 : generate
+
+UC1 --> UC3 : generate
+
+UC2 --> UC3 : generate
+
+sc --> UC1 : generate
+
+@enduml
+
+
+<img width="859" height="330" alt="image" src="https://github.com/user-attachments/assets/ce5a033b-7b19-4594-9080-9195ed496cda" />
+
+
+@startuml
+
+left to right direction
+
+actor "Designer" as de
+
+actor "Source Code" as sc
+
+rectangle UML {
+
+usecase "State Diagram" as UC1
+
+usecase "Sequence Diagram" as UC2
+
+usecase "Timing Diagram" as UC3
+
 }
 
 de --> UC1

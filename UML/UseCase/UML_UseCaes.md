@@ -8,6 +8,52 @@ actor "Source Code" as sc
 
 rectangle UML {
 
+usecase "State Diagram" as UC1
+
+usecase "Sequence Diagram" as UC2
+
+usecase "Timing Diagram" as UC3
+
+}
+
+de --> UC1
+
+de --> UC2
+
+de --> UC3
+
+UC1 --> sc : generate
+
+UC2 --> sc : generate
+
+UC3 --> sc : generate
+
+UC1 --> UC2 : generate
+
+UC1 --> UC3 : generate
+
+UC2 --> UC3 : generate
+
+sc --> UC1 : generate
+
+@enduml
+
+<img width="844" height="292" alt="image" src="https://github.com/user-attachments/assets/6ede256e-e191-42e0-8cb2-1b8c12f976fe" />
+
+
+
+
+
+@startuml
+
+left to right direction
+
+actor "Designer" as de
+
+actor "Source Code" as sc
+
+rectangle UML {
+
   usecase "State Diagram" as UC1
   
   usecase "Sequence Diagram" as UC2

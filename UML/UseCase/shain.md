@@ -1,23 +1,34 @@
 @startuml
 left to right direction
+
 skinparam monochrome true
 
 actor 社員
+
 actor 一般社員
+
 actor マネージャ
 
 ' 汎化関係
+
 一般社員 --|> 社員
+
 マネージャ --|> 社員
 
 ' 共通のアクター
+
 note right of 社員
+
   共通のアクター
+  
 end note
 
 ' 個別のアクター
+
 note right of マネージャ
+
   個別のアクター
+  
 end note
 
 ' 汎化関係（説明は社員側に集約）

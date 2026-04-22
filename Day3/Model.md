@@ -15,3 +15,14 @@ https://qiita.com/kaizen_nagoya/items/baad23cf4a041ce845a9
 
 vcraftjp/VZEditor
 https://github.com/vcraftjp/VZEditor/
+
+# 2
+老舗温泉旅館
+　本館、新館、渡り廊下が斜めだったり、段差があったり。
+ 　部屋の内装、構造、設備。
+
+時代がかわって、土台（CPU、OS）
+
+古いCPU、OS、言語
+
+新たにモデルから作りなおせば、新しいCPU、新しいOS、新しい言語。

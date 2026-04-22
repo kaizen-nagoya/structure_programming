@@ -4,7 +4,7 @@ https://qiita.com/kaizen_nagoya/items/1729515845cc2dcd7ee0
 Portable C Compilerから始めようと思った。（いまここ編）：docker(118)
 https://qiita.com/kaizen_nagoya/items/af5cf057deacd089f653
 
-
+2026/9にコンパイル成功を目指す。
 
 
 

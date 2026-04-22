@@ -33,3 +33,6 @@ int main( )
     }
     putchar ('\n');
 }
+// output
+// SWITCH SWAMP 
+// If a out put is different from above, it may be miss type or the OS is using difference escape sequence code or somethin. 

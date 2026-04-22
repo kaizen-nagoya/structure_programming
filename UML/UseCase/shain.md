@@ -32,9 +32,13 @@ note right of マネージャ
 end note
 
 ' 汎化関係（説明は社員側に集約）
+
 note left of 社員
+
   汎化関係
+  
   ↑汎化 / ↓特化
+  
 end note
 
 @enduml

@@ -1,3 +1,7 @@
+Use case図とsequence図を相互生成できるかどうかは、場合による。
+sequence図からuse case図の生成の方が楽そう。
+
+
 @startuml
 
 left to right direction

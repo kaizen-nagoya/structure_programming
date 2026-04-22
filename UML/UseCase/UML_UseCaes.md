@@ -22,7 +22,7 @@ usecase "Use Case Diagrm" as UC4
 
 }
 
-UC4 --   UC2
+UC4 -- UC2 :link
 
 de --> UC1
 
@@ -48,8 +48,8 @@ sc --> UC1 : generate
 
 @enduml
 
+<img width="859" height="330" alt="image" src="https://github.com/user-attachments/assets/375e41fd-f682-4007-b365-4fd24b5db15e" />
 
-<img width="859" height="330" alt="image" src="https://github.com/user-attachments/assets/ce5a033b-7b19-4594-9080-9195ed496cda" />
 
 
 @startuml

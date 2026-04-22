@@ -2,7 +2,7 @@
 // https://efrei.poupa.net/Programmation%20en%20C/Cours/The_C_Puzzle_Book.pdf
 
 #include <stdio.h> 
-#define PR(format,value) printf("value %format\t",(value)) 
+#define PR(format,value) printf(#value "%format\t",(value)) 
 #define NL putchar('\n') 
 #define PRINT1(f,x1) PR(f,x1), NL 
 #define PRINT2(f,x1, x2) PR(f,x1), PRINT1(f,x2) 

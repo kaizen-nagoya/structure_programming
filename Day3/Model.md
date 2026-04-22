@@ -46,3 +46,12 @@ https://www.jasst.jp/archives/jasst08e/pdf/B4-2.pdf
 状態遷移図　ー＞　SPIN　（Simple Promela（Programming meta language） Interpreter）の自動生成　状態遷移の抜け漏れを自動発見
 　　　　　　ー＞　Cプログラムの自動生成
       
+# 4
+イベント（出来事）　状態遷移図では、遷移
+イベントリスト　＝＞状態遷移図から自動生成できる。
+
+ 非機能要件リスト　ー＞状態遷移から、時系列図、刻時図を自動生成して、３つの図から自動生成する。
+
+ データディクショナリ　ー＞データ中心設計（後述）
+ 
+

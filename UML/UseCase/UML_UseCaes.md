@@ -1,6 +1,54 @@
 Use case図とsequence図を相互生成できるかどうかは、場合による。
 sequence図からuse case図の生成の方が楽そう。
 
+@startuml
+
+top to bottom direction
+
+actor "Designer" as de
+
+actor "Source Code" as sc
+
+rectangle UML {
+
+usecase "State Diagram" as UC1
+
+usecase "Sequence Diagram" as UC2
+
+usecase "Timing Diagram" as UC3
+
+usecase "Use Case Diagrm" as UC4
+
+}
+
+UC4 -- UC2 :link
+
+de --> UC1
+
+de --> UC2
+
+de --> UC3
+
+de --> UC4
+
+UC1 --> sc : generate
+
+UC2 --> sc : generate
+
+UC3 --> sc : generate
+
+UC1 --> UC2 : generate
+
+UC1 --> UC3 : generate
+
+UC2 --> UC3 : generate
+
+sc --> UC1 : generate
+
+@enduml
+
+<img width="611" height="478" alt="image" src="https://github.com/user-attachments/assets/f4d6ba73-308b-4862-a1be-32ae68f3f605" />
+
 
 @startuml
 
